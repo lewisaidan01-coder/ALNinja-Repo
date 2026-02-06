@@ -1,0 +1,112 @@
+{
+    "name": "RSM Ruleset",
+    "description": "Custom rules for RSM development",
+    "generalAction": "Hidden",
+    "rules": [
+        {
+          "id": "AA0215",
+          "action": "Hidden",
+          "justification": "We have a different naming convention"
+        },
+        {
+            "id": "AA0214",
+            "action": "Hidden",
+            "justification": "Not possible to solve"
+        },
+        {
+            "id": "AA0005",
+            "action": "Hidden",
+            "justification": "We prefer including begin..end"
+        },
+        {
+            "id": "AA0218",
+            "action": "Hidden",
+            "justification": "Reduce clutter"
+        },
+        {
+            "id": "AA0072",
+            "action": "Hidden",
+            "justification": "We don't like this naming convention"
+        },
+        {
+            "id": "LC0010",
+            "action": "Hidden",
+            "justification": "Show warning about code metrics for each function or trigger if either cyclomatic complexity is 8 or greater or maintainability index 20 or lower."
+        },
+        {
+            "id": "LC0023",
+            "action": "Hidden",
+            "justification": "Unneeded at this time? Always provide fieldsgroups DropDown and Brick on tables."
+        },
+        {
+            "id": "LC0025",
+            "action": "None",
+            "justification": "unnecessary - Procedure must be either local, internal or define a documentation comment."
+        },
+        {
+            "id": "LC0026",
+            "action": "None",
+            "justification": "unnecessary - ToolTip must end with a dot."
+        },
+        {
+            "id": "LC0027",
+            "action": "Hidden",
+            "justification": "need some more training - Utilize the Page Management codeunit for launching page."
+        },
+        {
+            "id": "LC0033",
+            "action": "None",
+            "justification": "unnecessary - removed runtime from app.json"
+        },
+        {
+            "id": "LC0035",
+            "action": "None",
+            "justification": "unnecessary - Explicitly set AllowInCustomizations for fields omitted on pages."
+        },
+        {
+            "id": "LC0036",
+            "action": "None",
+            "justification": "unnecessary - ToolTip must start with the verb Specifies"
+        },
+        {
+            "id": "LC0038",
+            "action": "None",
+            "justification": "unnecessary - Try to not exceed 200 characters (including spaces)."
+        },
+        {
+            "id": "LC0050",
+            "action": "Warning",
+            "justification": "SetFilter with unsupported operator in filter expression."
+        },
+        {
+            "id": "LC0055",
+            "action": "Hidden",
+            "justification": "The suffix Tok is meant to be used when the value of the label matches the name."
+        },
+        {
+            "id": "LC0057",
+            "action": "None",
+            "justification": "Enum values must have non-empty a Caption to be selectable in the client"
+        },
+        {
+            "id": "LC0062",
+            "action": "Warning",
+            "justification": "Mandatory fields (ex. SystemId and SystemModifiedAt) should always be part of an API page"
+        },
+        {
+            "id": "LC0063",
+            "action": "Hidden",
+            "justification": "Suggests using more descriptive field names"
+        },
+        {
+            "id": "LC0064",
+            "action": "Warning",
+            "justification": "Missing ToolTip property on table field - this should be the norm now"
+        },
+        {
+            "id": "LC0066",
+            "action": "Warning",
+            "justification": "Duplicate ToolTip between page and table field."
+        }
+    ]
+}

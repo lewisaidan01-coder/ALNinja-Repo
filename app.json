@@ -1,0 +1,33 @@
+{
+	"id": "[https://www.guidgenerator.com/online-guid-generator.aspx] or F1 --> Create GUID, and paste",
+	"name": "[Client Name] Customization",
+	"publisher": "RSM US LLP",
+	"brief": "",
+	"description": "",
+	"version": "1.0.0.0",
+	"privacyStatement": "",
+	"EULA": "",
+	"help": "",
+	"url": "https://rsmus.com/technologies/microsoft/solutions/dynamics-365/business-central.html",
+	"logo": ".vscode/RSM Logo.png",
+	"dependencies": [],
+	"screenshots": [],
+	"platform": "26.0.0.0",
+	"application": "26.0.0.0",
+	"idRanges": [
+		{
+			"from": 50100,
+			"to": 50149
+		}
+	],
+	"target": "Cloud",
+	"resourceExposurePolicy": {
+		"allowDebugging": true,
+		"allowDownloadingSource": true,
+		"includeSourceInSymbolFile": true,
+		"applyToDevExtension": true
+	},
+	"features": [
+		"NoImplicitWith"
+	]
+}
